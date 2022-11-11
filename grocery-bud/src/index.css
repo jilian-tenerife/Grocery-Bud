@@ -188,7 +188,7 @@ main {
   justify-content: center;
 }
 .grocery::placeholder {
-  color: white;
+  color: rgb(181, 165, 165);
 }
 .grocery {
   padding: 0.25rem;
