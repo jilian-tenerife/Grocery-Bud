@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 
-const Alert = ({ type, msg, removerAlert, list }) => {
+const Alert = ({ type, msg, removeAlert, list }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
-      removerAlert();
+      removeAlert();
     }, 3000);
     return () => clearTimeout(timeout);
   }, [list]);
